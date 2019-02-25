@@ -242,7 +242,7 @@ public class CraftStrategy extends PathFinderStrategy {
 	public static class CannotCraftError extends TaskError {
 
 		public CannotCraftError(CraftingWish wish) {
-			super("Cannor craft " + wish.item);
+			super("Cannot craft " + wish.item);
 		}
 
 		@Override
